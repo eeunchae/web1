@@ -3,6 +3,7 @@
   (2)웹 : 운영체제 위에서 작동하는 하나의 앱(인터넷의 부분집합)
   (3) client(갑)와 server(을)가 존재해야함
   (4) web hosting(간접) 과 web server(직접설치) 두개중 하나 사용 가능
+  (3) input type="checkbox" : 입력 형식을 체크박스로 사용함
 -->
 <!doctype html>
 <html>
@@ -17,6 +18,7 @@
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
   </ol>
+  <input type="checkbox">
   <h2>WEB</h2>
   <p>The World Wide Web (abbreviated WWW or the Web) is an information space where documents <br>
     and other web resources are identified by Uniform Resource Locators (URLs), <br>
@@ -25,5 +27,18 @@
     in 1990 while employed at CERN in Switzerland.[2][3] The Web browser was released outside of CERN in 1991, <br>
     first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
   </p>
+  <p>
+    <div id="disqus_thread"></div>
+    <script>
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-2.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
+
 </body>
 </html>
